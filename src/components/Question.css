@@ -1,0 +1,29 @@
+.question-section {
+  margin-bottom: 20px;
+}
+
+.question-text {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.answer {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.answer:hover {
+  background: #218838;
+}
